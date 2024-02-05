@@ -177,6 +177,7 @@ console.log(randomNumbersArray(100, 10))
 const removeDuplicates = (array) => {
     return array.filter((item, index) => array.indexOf(item) === index)
 }
+
 console.log(removeDuplicates(randomNumbersArray(100, 10)))
 
 
